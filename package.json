@@ -5,10 +5,12 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "brain-games": "./bin/brain-games.js"
+    "brain-games": "./bin/brain-games.js",
+    "brain-even": "./bin/brain-even.js"
   },
   "scripts": {
     "brain-games": "node bin/brain-games.js",
+    "brain-even": "node bin/brain-even.js",
     "publish-dry-run": "npm publish --dry-run"
   },
   "author": "",
