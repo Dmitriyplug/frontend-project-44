@@ -13,7 +13,13 @@ brain-calc:
 brain-gcd:
 	node bin/brain-gcd.js
 
+brain-progression:
+	node bin/brain-progression.js
+
+brain-prime:
+	node bin/brain-prime.js
+
 publish:
 	npm publish --dry-run
 
-.PHONY: install brain-games brain-even brain-calc brain-gcd publish
+.PHONY: install brain-games brain-even brain-calc brain-gcd brain-progression brain-prime publish
